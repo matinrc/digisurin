@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 216.36 251.83">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#New_Gradient_Swatch_1);
+        stroke-width: 0px;
+      }
+    </style>
+    <linearGradient id="New_Gradient_Swatch_1" data-name="New Gradient Swatch 1" x1="0" y1="125.92" x2="216.36" y2="125.92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a47a1e"/>
+      <stop offset=".06" stop-color="#af8428"/>
+      <stop offset=".16" stop-color="#cca145"/>
+      <stop offset=".18" stop-color="#d3a84c"/>
+      <stop offset=".23" stop-color="#e0bd62"/>
+      <stop offset=".32" stop-color="#f6df86"/>
+      <stop offset=".37" stop-color="#ffec94"/>
+      <stop offset=".44" stop-color="#f2d47d"/>
+      <stop offset=".5" stop-color="#e9c36e"/>
+      <stop offset=".55" stop-color="#e6be69"/>
+      <stop offset=".57" stop-color="#ebc36d"/>
+      <stop offset=".66" stop-color="#f9d278"/>
+      <stop offset=".73" stop-color="#ffd87c"/>
+      <stop offset=".75" stop-color="#f5ce74"/>
+      <stop offset=".8" stop-color="#d9b25c"/>
+      <stop offset=".85" stop-color="#c8a24e"/>
+      <stop offset=".89" stop-color="#c29c49"/>
+      <stop offset=".9" stop-color="#b58f3a"/>
+      <stop offset=".94" stop-color="#a37c24"/>
+      <stop offset=".97" stop-color="#987017"/>
+      <stop offset="1" stop-color="#956d13"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_2-2" data-name="Layer 2">
+    <g id="S4">
+      <path id="S3" class="cls-1" d="m186.42,138.25c7.08-7,7.2-18.39.28-25.55l-40.75-42.12-72.38,70.59-17.35-17.95,87.93-86.14,59.98,60.38c16.41,16.52,16.27,43.23-.31,59.57l-96.16,94.79-17.35-18.54,96.09-95.04ZM126.04,18.54L108.69,0,12.53,94.79c-16.58,16.34-16.72,43.05-.31,59.57l59.98,60.38,87.93-86.14-17.35-17.95-72.38,70.59-40.75-42.12c-6.92-7.15-6.8-18.55.28-25.55L126.04,18.54Z"/>
+    </g>
+  </g>
+</svg>

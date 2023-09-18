@@ -1,0 +1,155 @@
+.sildeClass {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: visible;
+}
+.sildeClass.slide1 {
+  margin-left: -100%;
+  transition: 1s ease-in-out;
+}
+.sildeClass.slide2 {
+  margin-left: -200%;
+  transition: 1s ease-in-out;
+}
+.sildeClass.slide3 {
+  margin-left: -300%;
+  transition: 1s ease-in-out;
+}
+.sildeClass.slide4 {
+  margin-left: -400%;
+  transition: 1s ease-in-out;
+}
+
+.imageCover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: black;
+  background: black;
+  animation: blurAnimation 5s ease-in-out;
+  opacity: 1;
+}
+
+@keyframes blurAnimation {
+  0% {
+    filter: blur(800px);
+    opacity: 0;
+    scale: 0;
+  }
+  70% {
+    scale: 0.2;
+    opacity: 0.1;
+
+    /* opacity: 1; */
+  }
+  100% {
+    filter: blur(0);
+    scale: 1;
+
+    opacity: 1;
+  }
+}
+.LoadBlack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #272b30;
+  opacity: 0;
+  animation: CoverRemover 2.5s ease-in-out;
+  z-index: -12;
+}
+@keyframes CoverRemover {
+  0% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes TitleShow {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.backTitle {
+  animation: TitleShow 6s ease-in-out;
+  width: 100%;
+  /* background: orange; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Loading {
+  width: 100%;
+  height: 100%;
+  border-radius: 20vw;
+  background: white;
+  animation-name: Loading;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.Loading1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20vw;
+  background: white;
+  animation-name: Loading;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 0.2s;
+}
+.Loading2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20vw;
+  background: white;
+  animation-name: Loading;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 0.4s;
+}
+@keyframes Loading {
+  0% {
+    opacity: 0;
+    scale: 0;
+  }
+
+  100% {
+    opacity: 0.2;
+    scale: 1;
+  }
+}
+
+.BackHomeBeforeLoad {
+  position: sticky;
+  animation: BackHome 7s ease-in-out;
+  opacity: 0;
+}
+@keyframes BackHome {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

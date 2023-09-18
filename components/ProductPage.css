@@ -1,0 +1,27 @@
+.custom-textfield {
+  & label {
+    color: rgb(108, 108, 108);
+    font-family: Iransans, sans-serif;
+  }
+
+  & input {
+    color: rgb(27, 27, 27);
+    font-family: Iransans, sans-serif;
+    text-align: center;
+  }
+
+  & .MuiInput-underline:before {
+    border-bottom-color: rgb(47, 47, 47);
+  }
+
+  & .MuiInput-underline:after {
+    border-bottom-color: #F86F03;
+  }
+}
+
+.selected {
+  background: orange;
+}
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}

@@ -1,0 +1,212 @@
+@font-face {
+  font-family: IranSans;
+  src: url("/assets/fonts/IRANSans.ttf");
+}
+@font-face {
+  font-family: digital;
+  src: url("/assets/fonts/digital-7.ttf");
+}
+
+.TitleProp1 {
+  background: rgba(255, 255, 255, 0.13);
+  min-width: 4vw;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 0.6vw;
+  margin: 0.1vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.2vw;
+  text-align: center;
+}
+
+.BackEachGp {
+  width: 20vw;
+  background: rgba(255, 255, 255, 0.05);
+  height: 80%;
+  display: flex;
+  align-items: center;
+  border-radius: 10vw;
+  /* justify-content: center; */
+  opacity: 0.4;
+  color: #2e2e2e;
+  transition: 0.3s;
+}
+.BackEachGp:hover {
+  opacity: 1;
+}
+.sel3 {
+  background: rgba(255, 255, 255, 0.52);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+
+  opacity: 1;
+}
+
+.TitleSwitch1 {
+  font-family: Iransans;
+  font-size: 0.8vw;
+  margin: 0.2vw;
+  user-select: none;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Radio2 {
+  width: 1vw;
+  height: 1vw;
+  background: rgb(255, 255, 255);
+  border-radius: 2vw;
+  margin: 0.4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.customegrad {
+  background: linear-gradient(to bottom, #7d7d7d, #a7a7a700);
+}
+.RadioOn {
+  width: 0.7vw;
+  height: 0.7vw;
+  /* background: rgb(26, 182, 3); */
+  border-radius: 2vw;
+  background: rgba(9, 153, 255, 0.783);
+
+  /* margin: 0.4vw; */
+}
+.backSwitch {
+  width: max-content;
+  height: 80%;
+  border-radius: 0.3vw;
+  background: rgba(255, 255, 255, 0.134);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.3vw;
+}
+.option3 {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Iransans;
+
+  border-radius: 10vw;
+  cursor: pointer;
+  opacity: 0.2;
+}
+.SortingAreaLine {
+  width: 98%;
+  height: 0.1vh;
+  background: rgba(255, 255, 255, 0.32);
+}
+
+.Controller1 {
+  width: 1.6vw;
+  margin: 0.5vw;
+  height: 3.2vh;
+  background: rgba(245, 245, 245, 0.09);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.Controller1:hover {
+  background: rgba(255, 255, 255, 0.348);
+}
+.sel4 {
+  background: rgba(255, 255, 255, 0.775);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.19);
+
+  opacity: 1;
+}
+.BackCard1Sel {
+  background: linear-gradient(to bottom, #7d7d7d, #ffffff00);
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.098);
+}
+.BackCard1 {
+  background: linear-gradient(to bottom, #7d7d7d, #ffffff00);
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.098);
+}
+.BackCard1PR {
+  background: linear-gradient(to bottom, #e8e8e8, #ffffff67);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.098);
+}
+.BackCard1:hover {
+  /* background: linear-gradient(to right bottom, #adadad48, #ffffff63); */
+  background: #525ee12f;
+  transition: 0.1s;
+  transform: scale(1.02);
+}
+.BackCard1PR:hover {
+  /* background: linear-gradient(to right bottom, #adadad48, #ffffff63); */
+  background: rgba(255, 255, 255, 0.335);
+  transition: 0.1s;
+  transform: scale(1.02);
+}
+.imageCard {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right bottom, #ffffff, #80808051);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.152);
+  border-radius: 0.3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TitleCard {
+  /* background-image: linear-gradient(to right, #ffffff00, #ffffff23, #ffffff00); */
+  /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); */
+  font-family: Iransans;
+  /* color: rgb(32, 32, 32); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+}
+.TitlePrCard {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  font-family: Iransans;
+  color: rgb(42, 42, 42);
+  display: flex;
+}
+.selCard {
+  background: #525fe1;
+  transform: scale(1.02);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.348);
+}
